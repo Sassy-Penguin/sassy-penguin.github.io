@@ -53,6 +53,7 @@ ul li.active a{
 .center h1{
     color: black;
     font-size: 50px;
+    border: 20px solid black;
 }
 
 .des{
@@ -60,4 +61,8 @@ ul li.active a{
     top: 70%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+.des p{
+    font-size: 20px;
 }
