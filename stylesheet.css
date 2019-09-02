@@ -66,3 +66,25 @@ ul li.active a{
 .des p{
     font-size: 20px;
 }
+
+.change{
+    color: white;
+    padding: 20px;
+}
+
+.change h1{
+    margin-bottom: 10px;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+.roman{
+    color: white; 
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.start{
+    color: white;
+    font-size: 21px;
+}
