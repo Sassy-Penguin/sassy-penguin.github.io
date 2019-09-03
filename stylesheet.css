@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/*This makes the background Snowdin in my home page. It makes it so that the background is only repeated once and centered.*/
 header{
     background-image: url(css.png);
     background-size: cover;
@@ -87,4 +88,9 @@ ul li.active a{
 .start{
     color: white;
     font-size: 21px;
+}
+
+/*This makes the background in my other pages black.*/
+.panic{
+    background-color:black;
 }
