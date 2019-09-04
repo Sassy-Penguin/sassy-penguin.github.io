@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-/*This makes the background Snowdin in my home page. It makes it so that the background is only repeated once and centered.*/
+/*This makes the background Snowdin in my home page. It makes it so that the background image is fitted into the website page.*/
 header{
     background-image: url(css.png);
     background-size: cover;
@@ -11,16 +11,19 @@ header{
     background-position: center;
 }
 
+/*Changes the position of the nav bar on the page. It makes it float to the right with a top margin of 25 pixels.*/
 ul{
     float: right;
     list-style-type: none;
     margin-top: 25px;
 }
 
+/*Makes the nav bar vertical.*/
 ul li{
     display: grid;
 }
 
+/*Affects the appearance of the nav bar. The font size is 20 pixels with aliceblue text. The top padding is 5 pixels and the right padding is 20 pixels. It has a 1 pixel thick, white border.*/
 ul li a{
     text-decoration: none;
     font-size: 20px;
@@ -29,11 +32,13 @@ ul li a{
     border: 1px solid #fff;
 }
 
+/*When you're hovering over a specific part of the nav bar, it'll have a green background with black text.*/
 ul li a:hover{
     background-color: green;
     color: black;
 }
 
+/*This changes what the nav bar looks like, depending on what page you're on. It'll have a green background with black text as long as you're on that section of the website.*/
 ul li.active a{
     background-color: green;
     color: black;
@@ -44,6 +49,7 @@ ul li.active a{
     max-width: 1400px;
 }
 
+/*This changes the position of the heading on my home page. It stays around the center of the page, despite the window size.*/
 .center{
     position: absolute;
     top: 60%;
@@ -51,12 +57,14 @@ ul li.active a{
     transform: translate(-50%,-50%);
 }
 
+/*This changes the heading on my home page. The font color is black, the heading is larger, and there is a 20 pixel thick, black border around it.*/
 .center h1{
     color: black;
     font-size: 50px;
     border: 20px solid black;
 }
 
+/*This changes the position of the paragraph on my home page. It stays around the center of the page, despite the window size.*/
 .des{
     position: absolute;
     top: 70%;
@@ -64,27 +72,32 @@ ul li.active a{
     transform: translate(-50%,-50%);
 }
 
+/*This changes the font size of the paragraph on my home page.*/
 .des p{
     font-size: 20px;
 }
 
+/*This is applied to the division that contain my headings (not my home page). The font color is white and it has a padding of 20 pixels around the entire heading.*/
 .change{
     color: white;
     padding: 20px;
 }
 
+/*This spefically changes the headings not in my home page. The heading's bottom margin is 10 pixels, the heading is underlined, and the heading is larger.*/
 .change h1{
     margin-bottom: 10px;
     text-decoration: underline;
     font-size: 40px;
 }
 
+/*This changes the list (makes the text white, larger, and moves the list 50 pixels from the left) in my "things I dislike" page.*/
 .roman{
     color: white; 
     margin-left: 50px;
     font-size: 20px;
 }
 
+/*This changes the text (white and larger) in my about me page.*/
 .start{
     color: white;
     font-size: 21px;
